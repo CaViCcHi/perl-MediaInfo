@@ -63,7 +63,7 @@ sub mediainfo (;$)
 				chomp $1;
 				if(!($1 ~~ @sections))
 				{
-					 _llog("Something to learn here... Title:$1");
+					 print STDERR "Something to learn here... Title:$1";
 				}
 				$dawn = lc $1;
 				if(!exists($info->{$dawn}))
