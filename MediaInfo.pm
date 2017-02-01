@@ -69,7 +69,7 @@ sub mediainfo (;$)
 				if(!exists($info->{$dawn}))
 				{
 					$info->{$dawn}->{list} = [];
-						$info->{$dawn}->{count} = 1;
+					$info->{$dawn}->{count} = 1;
 				}
 				else
 				{
